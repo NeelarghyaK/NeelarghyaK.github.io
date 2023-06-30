@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: #0d3934;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8ecee;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+#abc {
+  display: flex;
+}
+
+.hd {
+  color: #c97f17;
+}
+
+.hd2 {
+  color: #0d3934;
+  text-align: center;
+}
+
+.navbar {
+  background: #ffffff;
+  padding: 1em;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0d3934;
+  font-size: 2em;
+  text-align: center;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+
+.mobile-menu {
+  margin-right: 3em;
+  width: 2em;
+}
+
+nav {
+  display: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 12em;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  font-size: 1.3em;
+  letter-spacing: 0.3em;
+}
+.left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: 1.2em;
+  color: #0d3934;
+}
+.left-col .primary-cta {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+h2 {
+  margin-top: 4.2em;
+  color: #0d3934;
+}
+
+.res {
+  color: wheat;
+}
+
+.hero-img {
+  width: 100%;
+  margin-top: 3em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.feature {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.hello {
+  text-align: center;
+}
+
+.cards {
+  box-shadow: 0 4px 8 px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+  width: 300px;
+  background: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cntr {
+  padding: 2px 16px;
+}
+
+.cntr2 img {
+  width: 20%;
+}
+
+.cntr2 {
+  padding: 2px 16px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.cntr2 img {
+  margin: auto;
+}
+
+span {
+  color: #c97f17;
+}
+
+.about-us {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.menu-pic {
+  display: inline;
+}
+
+.reservation {
+  text-align: center;
+  position: relative;
+}
+.reservation .container {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 1em;
+  }
+  .navbar nav ul {
+    display: flex;
+  }
+  .navbar nav a {
+    color: black;
+    font-size: 1.4em;
+    padding: 0.1em 1em;
+    text-decoration: none;
+  }
+  .navbar nav ul.primary-nav {
+    margin-top: 2em;
+  }
+  .navbar nav ul.secondary-nav {
+    margin-top: 2em;
+  }
+  .navbar nav li.current a {
+    color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -0.2em;
+  }
+  .navbar nav li.current a:hover {
+    background: var(--primary-color);
+    color: white;
+  }
+  .navbar nav li.contact-cta a {
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -0.2em;
+    place-content: space-between;
+  }
+  .navbar nav li.contact-cta a:hover {
+    background: var(--primary-color);
+    color: white;
+  }
+}
+.banner {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 420px 420px;
+}
+
+.card-img {
+  background: url("reserve_table.png") center/cover no-repeat;
+  z-index: 0.5;
+}
+
+.banner {
+  background: url("reserve_bg.png") center/cover no-repeat;
+}
+
+.banner h2 {
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  background: #fff;
+  height: 330px;
+}
+
+.card-content h3 {
+  text-align: center;
+  color: #000;
+  padding: 25px 0 10px 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.form-row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+form select, form input {
+  display: block;
+  width: 100%;
+  margin: 15px 12px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  font-weight: 300;
+}
+
+form input::-moz-placeholder {
+  color: #9a9a9a;
+}
+
+form input[type=text], form input[type=number], form input::placeholder, select {
+  color: #9a9a9a;
+}
+
+form input[type=submit] {
+  color: #fff;
+  background: #f2745f;
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type=submit]:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 992px) {
+  .card-container {
+    grid-template-columns: 100%;
+    width: 100vw;
+  }
+  .card-img {
+    height: 330px;
+  }
+}/*# sourceMappingURL=styles.css.map */

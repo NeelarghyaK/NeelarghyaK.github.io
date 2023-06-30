@@ -1,5 +1,5 @@
 # RESTAURANT-CHEFABLE #
-This is a simple website created for a restaurant using HTML and Sass CSS. It provides a basic online presence for the restaurant, allowing customers to get an overview of the restaurant, view the menu, and contact the restaurant for inquiries or reservations.
+This is a simple website created for a restaurant using HTML and Sass CSS. It provides a basic online presence for the restaurant, allowing customers to get an overview of the restaurant, view the menu, and contact the restaurant for inquiries or reservations. To view this site click on this link: https://neelarghyak.github.io/
 
 ### Features ###
 **Home Page**: The website includes a home page that showcases an inviting image or a brief description of the restaurant. This helps create an attractive visual impression for visitors.

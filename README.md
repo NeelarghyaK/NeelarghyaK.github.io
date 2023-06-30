@@ -1,4 +1,4 @@
-### RESTAURANT-CHEFABLE ###
+# RESTAURANT-CHEFABLE #
 This is a simple website created for a restaurant using HTML and Sass CSS. It provides a basic online presence for the restaurant, allowing customers to get an overview of the restaurant, view the menu, and contact the restaurant for inquiries or reservations.
 
 **Features**
